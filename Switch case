@@ -1,0 +1,28 @@
+#include<stdio.h>
+main()
+{
+    //1.display the menu
+    printf("pick a colour:black\n1,blue\n2,purple\n2,green\n2");
+    // read their choices
+    int choice=0;
+    scanf("%d",&choice);
+    //display based on their choice
+    switch(condition)
+    {
+    case 1;
+        printf("you picked black");
+        break;
+    case 2;
+        printf("you picked blue");
+        break;
+    case 3;
+        printf("you picked purple");
+        break;
+    case 4;
+        printf("you picked green");
+        break;
+    default:
+        printf("invalid choice");
+    }
+    return 0;
+}
